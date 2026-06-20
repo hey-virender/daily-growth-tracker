@@ -1,15 +1,17 @@
 {
   "expo": {
-    "name": "daily-growth-tracker",
-    "slug": "daily-growth-tracker",
+    "name": "Daily Growth Tracker",
+    "slug": "growth-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.dailygrowthtracker.app",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,6 +21,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5da6f025-a8d3-4b73-b615-21456ef25212"
+      }
+    },
+    "owner": "hey-virender"
   }
 }
